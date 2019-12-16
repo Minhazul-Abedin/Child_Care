@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChildCare</string>
+    <string name="title_activity_dochome">dochome</string>
+
+    <string-array name="services">
+        <item>Child Monitoring</item>
+        <item>Family Enviroment</item>
+        <item>Pre-School Education</item>
+        <item>Separate care accoring age group</item>
+        <item>24 video call connection asurance</item>
+        <item>cctv monitoring </item>
+        <item>fully Secure </item>
+        <item>Pre-diecction of disease </item>
+
+
+    </string-array>
+</resources>

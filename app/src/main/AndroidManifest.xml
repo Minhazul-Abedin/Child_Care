@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.child_care">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TutorUpdateListActivity"></activity>
+        <activity android:name=".DoctorUpdateListActivity" />
+        <activity
+            android:name=".ChildListForTutorActivity"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".ChildListForDoctorActivity"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".DoctorUpdateActivity" />
+        <activity android:name=".TutorUpdateActivity" />
+        <activity android:name=".phone" />
+        <activity android:name=".academy_report" />
+        <activity android:name=".tuitor_home" />
+        <activity android:name=".child_show" />
+        <activity android:name=".report_chosse" />
+        <activity android:name=".authority" />
+        <activity android:name=".tuitor_show" />
+        <activity android:name=".owner_home" />
+        <activity android:name=".tuitor_reg" />
+        <activity android:name=".Owner_reg" />
+        <activity android:name=".tuitor" />
+        <activity android:name=".owner" />
+        <activity android:name=".Options" />
+        <activity android:name=".services" />
+        <activity android:name=".forgot" />
+        <activity android:name=".docshow" />
+        <activity android:name=".dochome" />
+        <activity android:name=".Baby" />
+        <activity android:name=".about" />
+        <activity android:name=".parents_home" />
+        <activity android:name=".D_reg" />
+        <activity android:name=".P_reg" />
+        <activity android:name=".parents" />
+        <activity android:name=".doc" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

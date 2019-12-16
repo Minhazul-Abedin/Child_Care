@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="5dp"
+    app:cardElevation="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/post_image">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/used"
+            android:textSize="24sp"
+            android:id="@+id/doc_name">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specialist"
+            android:textSize="24sp"
+            android:textAllCaps="false"
+            android:textColor="@color/used"
+            android:textAlignment="center"
+            android:id="@+id/doc_spe">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/used"
+            android:textAlignment="center"
+            android:id="@+id/doc_phone">
+
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
